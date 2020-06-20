@@ -84,7 +84,7 @@ h2 {
  max-height: 200px
  max-width:20%;
  margin-top: 3%;
- border
+ border-radius: 25px;
 }
 .card_front {
  text-align: center;
@@ -98,7 +98,7 @@ h2 {
   max-height: 80%;
 }
 .card_back{
-  color: #F75990;
+  color: #FF1D58;
   background-color: #FFF685;
   transform: rotateY(180deg);
 }
@@ -124,4 +124,7 @@ h2 {
  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
  background-color: #FFF685;
  transform: rotateY(180deg);
+}
+.card:hover .card_front, .card_back {
+ background-color: #FFF685;
 }
