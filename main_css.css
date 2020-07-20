@@ -9,12 +9,12 @@ Color Scheme:
 */
 
 #main_body {
- background-color: #f2ecd8;
+ background-color: #444444;
 }
 
 #head_text {
   font-family: Courier New;
-  color: #0049B7;
+  color: #F75990;
   font-weight: 700;
   font-size: 60px;
   padding-left: 15%;
@@ -29,8 +29,9 @@ h2 {
  margin-bottom: 50%;
 }
 .Section_Head {
- color:#FF1D58;
- font-family: Comic Sans MS;
+ color:#F75990;
+ font-family: Ariel;
+ text-decoration: underline;
  font-size:50px;
  font-weight: 700;
  text-align: left;
@@ -45,7 +46,7 @@ h2 {
  z-index: 1;
  top: 0;
  left: 0;
- background-color: #0049B7;
+ background-color: #770077;
  overflow-x: hidden;
  padding-top: 20px;
 }
@@ -62,7 +63,7 @@ h2 {
   display: block;
 }
 .sidebar a:hover {
-  color: #AFD275;
+  color: #F75990;
 }
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
@@ -106,7 +107,7 @@ h2 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #00DDFF;
+  background-color: #F0EAD6;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
