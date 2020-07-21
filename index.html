@@ -1,29 +1,31 @@
 <!DOCTYPE html>
+
+<!--
+first_view:
+	Name, career path
+Summary:
+	The key aspects of what makes me valuable
+Education:
+	University, HighSchool, Self-Taught
+Projects:
+	Math and Comp sci projects i'm proud of
+Skills
+-->
+
 <html>
 	<head>
 		<link rel="stylesheet" href="main_css.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Jacob Barton's Web Page!</title>
+		<title>Jacob Barton - Programmer</title>
 		<meta author="Jacob Barton">
 		<meta description="This is My Webpage!">
 	</head>
 	<body id="main_body">
-		<!--Side Bar-->
-		<div class="sidebar" style="display: flex">
-			<main stlye="flex:1; scrollable:auto;">
-				<a href="index.html">About Myself</a>
-			<!--
-				<a href="main.html">Personal Entries</a>
-			-->
-				<a href="https://github.com/Jcbbrtn">Archives</a>
-			</main>
-		</div>
-
+		<div id="first_view">
+	</div>
 		<!-- The Cards-->
-		<p id="head_text">H</p>
 		<p class="Section_Head">About Me</p>
 		<div class="card_holder">
-
 			<div class="card">
 				<div class="card_inner">
 				    <div class="card_front">
@@ -184,21 +186,5 @@
 			</div>
 			<!--End of the Cards-->
 		</div>
-		<script>
-			window.onload = function(){typeWriter()};
-
-			var i = 0;
-			var txt = 'ello, Welcome to my Webpage';
-			var speed = 75;
-
-			function typeWriter() {
-			  if (i < txt.length) {
-			    document.getElementById("head_text").innerHTML += txt.charAt(i);
-			    i++;
-			    setTimeout(typeWriter, speed);
-			  }
-			}
-
-		</script>
 	</body>
 </html>

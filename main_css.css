@@ -1,24 +1,32 @@
 
-/*
-Color Scheme:
-	#FF1D58
-  #F75990
-  #FFF685
-  #00DDFF
-  #0049B7
-*/
-
 #main_body {
  background-color: #444444;
+ margin-top: 0px;
 }
 
 #head_text {
+  all
   font-family: Courier New;
-  color: #F75990;
+  color: #088da5;
+  background-color: 444444;
   font-weight: 700;
   font-size: 60px;
-  padding-left: 15%;
   max-width: 80%;
+  height: 50%;
+  position: relative;
+  margin-left: 43%;
+  border-width: 2px; 
+}
+#first_view {
+  align-items: center;
+  display: flex;
+  padding-top: 0px;
+  height: 100vh;
+  background-image: url(myfunc.png);
+  background-repeat: no-repeat;
+  background-size: 105vw 105vh;
+  background-attachment: fixed;
+
 }
 
 h2 {
@@ -29,6 +37,7 @@ h2 {
  margin-bottom: 50%;
 }
 .Section_Head {
+ text-align: center;
  color:#F75990;
  font-family: Ariel;
  text-decoration: underline;
@@ -37,37 +46,6 @@ h2 {
  text-align: left;
  margin-left: 16%;
  margin-top: 4%;
-}
-
-.sidebar {
- height: 100%;
- width: 14%;
- position: fixed;
- z-index: 1;
- top: 0;
- left: 0;
- background-color: #770077;
- overflow-x: hidden;
- padding-top: 20px;
-}
-.sidebar:hover {
-  width: 17%;
-  transition: 0.5s;
-}
-
-.sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #F0EAD6;
-  display: block;
-}
-.sidebar a:hover {
-  color: #F75990;
-}
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
 }
 .card_holder {
  margin-top: 1%;
