@@ -47,6 +47,11 @@ h4{
   font-size: 40px
 }
 
+ul{
+  display:center;
+  padding-left: 5%;
+}
+
 .title_break{
   width:32%;
   size:5px;
@@ -90,10 +95,23 @@ h4{
  margin-top: 4%;
 }
 
+.content_full{
+  text-align: center;
+  font-family: Ariel;
+  padding-bottom: 10%;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 16%;
+  max-width: 65%;
+  padding-top: 5%;
+}
+
 .content{
   display: inline-flex;
   font-family: Ariel;
   padding-bottom: 10%;
+  font-size: medium;
+  font-weight: 150;
 }
 .content_left{
   max-width: 33%;
